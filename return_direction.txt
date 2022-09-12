@@ -1,0 +1,47 @@
+Directions 1:
+Head west from 123 YY St  
+Turn left at 15 St
+Turn left at 13 St
+Turn left at 12 St
+Turn left XX St
+Arrive at 13 XX St 
+
+Directions 2:
+Head west from 123 YY St  
+Turn right t 15 St
+Turn right t 13 St
+Turn right t 12 St
+Turn right XX St
+Arrive at 13 XX St 
+
+Directions 3:
+Head north from 123 YY St  
+Turn right at 15 St
+Turn left t 14 St
+Turn right at 13 St
+Turn left t 12 St
+Turn right XX St
+Arrive at 13 XX St 
+
+Directions 4:
+Head west from 123 YY St  
+Turn left East St
+Continue on 16 St
+Turn right East St
+Continue ont 15 St
+Turn left West St
+Continue on 14 St
+Turn right North St
+Continue ont 13 St
+Turn left South St
+Continue on 12 St
+Turn right XX St
+Arrive at 13 XX St 
+
+Directions 5:
+Head east from 1867 YY Ave  
+Turn right at Google Rd
+Turn left at Poor St
+Turn left XX Rd
+Arrive at 12 XX Rd 
+
