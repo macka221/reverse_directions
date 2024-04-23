@@ -59,6 +59,7 @@ void setInstruction(string, DIR&);// instruction, dirValue
 void strToCompass(string, COMPASS&);// arg: direction, currentCompass
 void changeCompass(const string, COMPASS&);// args: LR, currCompass
 void swapLR(string[], string);//args: direction, LR
+int getLength(string[]); // args: direction
 
 int main()
 {
@@ -147,6 +148,7 @@ template<class XType>
 XType Stack<XType>::Top() const
 {
     if (!this->Is_Empty())
+
     {
         if (!tos)
         {
@@ -161,6 +163,7 @@ XType Stack<XType>::Top() const
     {
         cout << "Stack is empty!"
              << "Top operation aborted.\n";
+		return tos->Element;
     }
 }
 
@@ -208,10 +211,22 @@ string subString(const string direction[])
     return currentDir;
 }
 
+int getLength(string directions[])
+{
+	int length = 0;
+
+	while (!directions[length].empty())
+	{
+		length++;
+	}
+
+	return length;
+}
+
 string swapCompass(string directions[], COMPASS oldCompass)
 {
     string newDirection;
-    int len = sizeof(directions) + 1;
+    int len = getLength(directions);
 
     if (directions[0] == "Arrive")
     {
